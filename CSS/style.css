@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f5f9;
+}
+header {
+  background: #0f172aeb;
+  width: 100%;
+  border-bottom: 1px solid #ffffff14;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 14.5px 6%;
+  margin: 0 auto;
+}
+.logo a {
+  font-size: 30px;
+  color: #c6f9ff;
+  text-decoration: none;
+}
+.navLinks {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.navLinks a {
+  text-decoration: none;
+  color: #c6f9ff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 7px 0;
+}
+
+/*============== HERO SECTION ======================*/
+#hero {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      107deg,
+      rgba(15, 23, 42, 0.85) 0%,
+      rgba(2, 15, 29, 0.78) 100%
+    ),
+    url(../image/hero_imgCode.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  padding: 0 6%;
+}
+#hero h2 {
+  font-size: 56px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding-top: 100px;
+}
+#hero h3 {
+  font-size: 23px;
+  font-weight: 300;
+  color: #cbd5e1;
+  margin-bottom: 8px;
+}
+.heroJob {
+  display: inline-block;
+  background: #2dd4bf33;
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #c6f9ff;
+  margin: 1rem 0 1.2rem 0;
+  border: 1px solid #2dd4bf66;
+}
+.heroPargraph {
+  color: #c6f9ff;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+.sIcons {
+  margin-top: 32px;
+  display: flex;
+  gap: 1.2rem;
+}
+.sIcons a {
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+/* ================= about section =====================*/
+#about {
+  margin: 0 auto;
+  padding: 80px 6%;
+  display: flex;
+  gap: 3rem;
+}
+.ldev p {
+  font-size: 2rem;
+  width: 300px;
+  font-weight: 700;
+}
+#about .marks {
+  color: #bf8d31;
+  font-size: 35px;
+  text-align: center; /************************/
+}
+/* .rdiv { */
+/* } */
+.aboutText {
+  font-size: 16px;
+  color: #64748bff;
+  margin-bottom: 32px;
+  line-height: 1.7;
+  background: white;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px #57fff1;
+}
+.skills {
+  margin-top: 30px;
+}
+.skillInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #222222ff;
+  font-size: 15px;
+}
+.bar {
+  width: 100%;
+  background-color: #e2e8f0;
+  border-radius: 12px;
+  height: 8px;
+  margin-bottom: 16px;
+}
+.barFill {
+  height: 100%;
+  background: rgb(91, 210, 61);
+  border-radius: 12px;
+}
+
+/*=============== Experience section ===================*/
+#experience {
+  background-color: #454f5a;
+  border-radius: 45px;
+  box-shadow: 20px 20px 25px 8px #45e42d84;
+}
+.section-container {
+  padding: 60px 6%;
+  display: flex;
+  gap: 30px;
+}
+#experience .ldiv p {
+  font-size: 32px;
+  font-weight: 700;
+}
+#experience .rdiv {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 25px 30px;
+}
+.expCard {
+  background: #fff;
+  padding: 30px 24px;
+  border-radius: 12px;
+  width: 440px;
+  box-shadow: 0 10px 20px #57fff1;
+  border: 1px solid #00000008;
+}
+.expIcon {
+  font-size: 32px;
+  color: #81d8f5;
+  margin-bottom: 1rem;
+}
+.expCard h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 8px;
+}
+.expCard p {
+  color: #64748b;
+}
+.company {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #c7c7c7;
+  margin-bottom: 5px;
+}
+.role {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.expCard p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+/*================ work section ====================*/
+#work {
+  padding: 200px 0 180px;
+}
+#work .ldiv {
+  width: 500px;
+  font-size: 32px;
+  font-weight: 700;
+}
+#work .rdiv {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.project {
+  background: #ffff;
+  border-radius: 12px;
+  padding: 24px;
+  width: 350px;
+  box-shadow: 0 10px 20px #57fff1;
+  border-bottom: 3px solid #b2b3b3;
+}
+.projectIcon {
+  font-size: 32px;
+  color: #81d8f5;
+  margin-bottom: 14px;
+}
+.project h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.project p {
+  font-size: 14px;
+  color: #64748b;
+}
+/*============== footer ===============*/
+footer {
+  background: #0f172a;
+  color: #cbd5e1;
+  text-align: center;
+  padding: 40px 24px;
+  margin-top: 16px;
+}
+.foot {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.footContact {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin: 24px 0;
+}
+.footContact a {
+  color: #64748b;
+  text-decoration: none;
+  font-weight: 500;
+}
+.copyright {
+  font-size: 15px;
+  opacity: 0.7;
+}
